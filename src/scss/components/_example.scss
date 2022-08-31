@@ -1,0 +1,103 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  * {
+    box-sizing: inherit;
+  
+    &::after {
+      box-sizing: inherit;
+    }
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: rgb(200, 200, 200);
+    color: aliceblue;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main {
+    width: 814px;
+    height: 501px;
+    background-color: rgba(61, 198, 175, 0.571);
+    border-radius: 15px;
+  }
+  
+  .headline {
+    background-color: rgb(229, 122, 0);
+    position: relative;
+    right: 5%;
+    top: 7%;
+    width: 600px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 9%;
+  
+    h3 {
+      margin-left: 13%;
+    }
+  }
+  
+  .main > p {
+    margin-left: 5%;
+  }
+  
+  input {
+    margin-left: 5%;
+    width: 400px;
+    height: 40px;
+    background-color: rgba(143, 237, 218, 0.318);
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.425);
+  
+    &::placeholder {
+      color: rgba(0, 0, 0, 0.225);
+      padding-left: 10px;
+      font-weight: bold;
+    }
+  }
+  
+  p {
+    color: rgba(0, 0, 0, 0.425);
+    font-size: 0.8rem;
+    margin-top: 25px;
+    margin-bottom: 5px;
+  }
+  
+  .date-cvv {
+    margin-top: 25px;
+    margin-left: 5%;
+    width: 365px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .date-cvv-inputs {
+    width: 400px;
+    display: flex;
+    gap: 10px;
+  
+    input {
+      margin-left: 10%;
+      width: 100px;
+    }
+  }
+  
+  .moon-img {
+    position: relative;
+    right: -73%;
+    top: -37%;
+    width: 220px;
+    overflow: hidden;
+    border-bottom-right-radius: 15px;
+  
+    img {
+      width: 310px;
+    }
+  }
